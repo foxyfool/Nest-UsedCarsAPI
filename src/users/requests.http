@@ -1,0 +1,37 @@
+
+# # # ## 1st Step
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+    "email": "halloooo@gmail.com",
+    "password": "Glowskin1@"
+}
+
+# # ## 2nd Step
+# GET http://localhost:3000/auth/whoami
+
+# # ## 3rd Step
+
+# POST  http://localhost:3000/auth/signout
+
+## 2nd Step
+
+# GET http://localhost:3000/auth/2
+
+
+## 3rd Step
+# GET http://localhost:3000/auth?email=mynameisrahul@gmail.com
+
+# # ## 4th Step
+# DELETE http://localhost:3000/auth/1
+
+# # ## 5th Step
+# PATCH http://localhost:3000/auth/2
+# Content-Type: application/json
+
+# {
+#     "password" : "Nigga1"
+# }
+
+
